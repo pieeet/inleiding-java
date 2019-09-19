@@ -6,6 +6,6 @@ package h01;
 public class HalloRocDev {
 
     public static void main(String[] args) {
-        System.out.println("Hallo cohort 2019!");
+        System.out.println("Hallo Ahmed en Sarai!");
     }
 }
