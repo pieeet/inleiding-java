@@ -12,7 +12,7 @@ public class Opdracht408 extends Applet {
 
 
     public void paint(Graphics g) {
-        //Lijn
+        //Lijn.
         g.drawLine(20,20,200,20);
 
         //Rechthoek
