@@ -12,6 +12,7 @@ public class H6Praktijkopdracht extends Applet {
     double uitkomst;
 
     public void init() {
+        //getallen
     getal1 = 5.9;
     getal2 = 6.3;
     getal3 = 6.9;
