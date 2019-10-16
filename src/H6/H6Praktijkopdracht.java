@@ -1,4 +1,18 @@
 package H6;
+/*
+1. Waarom is initialiseren van variabelen noodzakelijk?
+Door het initialiseren van variabelen weet je welke waarde er in een variabele staat.
+2. Waarom is er typecasting noodzakelijk bij de conversie van een double naar een int?
+Omdat een int een heel getal moet zijn, en een double mag achter de komma werken.
+3. Wat is de uitvoer van dit programma? Geef een verklaring
+A = 8, B = 8 & C = 3. De uitkomst is A+B en dan vervolgens delen door C. Omdat het een double is
+wordt hij naar beneden afgerond op ,0 achter de komma. Het antwoord is dan ook 5,0.
+4 & 5 =
+Dan is het antwoord 10.
+
+
+
+*/
 
 import java.applet.Applet;
 import java.awt.*;
