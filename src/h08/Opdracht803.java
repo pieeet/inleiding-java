@@ -10,10 +10,7 @@ public class Opdracht803 extends Applet {
 TextField   tekstvak;
 Label       label;
 Button      buttonOK;
-String      message;
-
 Double      inclBTW;
-Double      exclBTW;
 Double      userInput;
 
 
@@ -32,22 +29,10 @@ Double      userInput;
             buttonOK = new Button("OK!");
             buttonOK.addActionListener(new ButtonOKListener());
             add(buttonOK);
-
-                //probeersel!@#
-            //ButtonOKListener BOL = new ButtonOKListener();
-           // buttonOK.addActionListener(BOL);
-
-            //exclBTW =
-
-            //inclBTW = userInput * 1.21;
     }
 
     public void paint(Graphics g) {
             g.drawString("Het bedrag inclusief BTW is: " + inclBTW, 95,70);
-
-            //g.drawString(inclBTW, 200,50);
-           // String.valueOf(inclBTW,200,200);
-
 
     }
 
