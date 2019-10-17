@@ -22,9 +22,7 @@ Button  knopMin;
  public void init() {
         setSize(700,350);
     tekstvakLinks = new TextField(20);
-//   tekstvakLinks.addActionListener(new TekstvakLinksListener());
     tekstvakRechts = new TextField(20);
-    tekstvakRechts.addActionListener(new TekstvakRechtsListener());
 
     add(tekstvakLinks);
     add(tekstvakRechts);
@@ -55,18 +53,6 @@ Button  knopMin;
     public void paint(Graphics g) {
         }
 
-class TekstvakLinksListener implements ActionListener {
-    public void actionPerformed(ActionEvent e) {
-
-    }
-}
-
-class TekstvakRechtsListener implements ActionListener {
-    public void actionPerformed(ActionEvent e) {
-
-
-    }
-}
     class KnopKeerListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
 

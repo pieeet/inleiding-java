@@ -1,5 +1,24 @@
 package h08;
+/* Vragen hoofdstuk 8:
+Wat is event-handling?
+- Events zijn gebeurtenissen die de computer afhandelt.  In geval van event handling stuurt de computer de gebeurtenis
+door naar de bijbehorende methode.
+Wat is een gebruikersinterface?
+- Gebruikersinterface is wat de gebruiker op zijn of haar scherm ziet.
+Waarom moet er voor een knop wel en voor een tekst geen event-handling geprogrammeerd worden?
+- Omdat je van tekst een waarde kunt maken, maar niet van een muisklik.
+Wat is een lege string?
+-Een string is een een stuk tekst die je kan aanroepen met bepaalde code. Maar deze tekst hoeft niet gevuld te zijn. Dan
+krijg je dus niets te zien; een lege string dus.
+Wat is het verschil tussen een tekstvak en een label?
+- Als gebruiker kun je iets invullen in een tekstvak. Dit kan niet met een label.
+Waarom moeten getallen uit een tekstvak altijd geconverteerd worden naar een double of een int?
+- Geen idee. Ik heb dit in 804 niet gedaan en hij werkt. Waarom?
 
+
+
+
+ */
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.ActionEvent;
