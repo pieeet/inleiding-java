@@ -19,14 +19,7 @@ Button  knopDelen;
 Button  knopPlus;
 Button  knopMin;
 
-Label label;
-
-
-
-
-
-
-    public void init() {
+ public void init() {
         setSize(700,350);
     tekstvakLinks = new TextField(20);
 //   tekstvakLinks.addActionListener(new TekstvakLinksListener());
@@ -60,9 +53,7 @@ Label label;
     }
 
     public void paint(Graphics g) {
-        g.drawString(" Test " + uitwerkingX,100,100);
-
-    }
+        }
 
 class TekstvakLinksListener implements ActionListener {
     public void actionPerformed(ActionEvent e) {
@@ -137,12 +128,4 @@ class TekstvakRechtsListener implements ActionListener {
             repaint();
         }
     }
-
-
-
-
-
-
-
-
 }
