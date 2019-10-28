@@ -23,7 +23,7 @@ public class Opdracht1101 extends Applet {
         for (int i = 0; i < 10; i++){
             x += 20;
             g.drawLine(x, 50, x,200);
-            ;
+
         }
 
     }
