@@ -3,22 +3,29 @@ package h11;
 import java.applet.Applet;
 import java.awt.*;
 
-public class Opdracht1102 extends Applet {
+public class Opdracht1104 extends Applet {
 
     public void init() {
     }
 
     public void paint(Graphics g) {
 
+        int t;
+        int antw;
         int x = 50;
         int y = 50;
 
-        for (int i = 20; i > 10; i--){
-        g.drawString(" " + i, x,y);
+        for(t = 1; t < 11; t++){
+            antw = 3 * t;
+        g.drawString(" " + antw, x , y);
         y += 20;
+
         }
 
+
     }
+
+
 
 
 
