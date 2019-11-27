@@ -69,6 +69,12 @@ class RekenUitListener implements ActionListener {
 
         // Hoe kan ik de cijfers opslaan om ze vervolgens het gemiddelde uit te rekenen?
 
+        //
+
+
+
+
+
 
     }
 }

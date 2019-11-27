@@ -10,7 +10,7 @@ TextField inputMaand;
 Label     labelMaand;
 String    tekstMaand;
 String    sMaand;
-int       maand;
+Integer   maand;
 
 
 

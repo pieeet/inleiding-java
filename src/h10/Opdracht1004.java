@@ -88,7 +88,7 @@ public class Opdracht1004 extends Applet {
                     tekstMaand = "December 31";
                     break;
                 default:
-                    tekstMaand = "U hebt een verkeerd nummer ingetypt.";
+                    tekstMaand = "U heeft een verkeerd nummer ingetypt.";
                     break;
 
             }
