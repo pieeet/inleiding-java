@@ -38,6 +38,7 @@ Integer [] cijfers =
         for (int i = 0; i < cijfers.length; i++) {
             if (cijfers[i] == cijfer) {
                 aBoolean = true;
+                break;
             }
         }
 
