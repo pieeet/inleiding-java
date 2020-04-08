@@ -6,50 +6,46 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Opdracht1111 extends Applet {
-// Een knop die als Actionhandler heeft dat ie x- een +1 geeft waardoor de switch statement weer veranderd
-// Of een knop die iets met een for a=0;a<10;++ iets maakt.
-// IF OK-gedrukt tafel= tafel+1.
-    //.........
-
-    Integer tafel;
-    Integer h;
-    Integer x;
-    Integer aX;
-    Button okKnop;
-
-
-
+Integer aantalX, tafel;
+Button okKnop;
+String s1,s2;
 
     public void init() {
-
-    setSize(500,500);
-
-    okKnop = new Button("Volgende");
-    okKnop.addActionListener(new ButtonOKListener());
-    add(okKnop);
-
-
+        okKnop = new Button ("OK!");
+        okKnop.addActionListener(new okKnopListener());
+        s1 = "";
+        add(okKnop);
     }
+
 
     public void paint(Graphics g) {
+        int y = 20;
+        g.drawString("Tafels:",50,30);
+        for (int aantalX = 1; aantalX < 11 ; aantalX++) {
+            y += 20;
 
-
-      g.drawString("Sommetje" + tafel, 50,50);
-      g.drawString("sommetje23" + tafel, 60,60);
-      g.drawString("Somme2323tje" + tafel,75,75);
-      g.drawString("3434343434" + (tafel * 3),100,100);
-        repaint();
+         s1 = (" " + aantalX + "*" + tafel + "=" + (aantalX * tafel));
+         g.drawString(s1,60,y + 20);
+         repaint();
         }
-
-        class ButtonOKListener implements ActionListener {
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("De OK-knop werkt");
-                tafel++;
-                repaint();
-            }
-
+        repaint();
     }
 
+
+class okKnopListener implements ActionListener{
+    public void actionPerformed(ActionEvent e) {
+        aantalX++;
+        if (tafel > 10)
+        {
+            tafel = 1;
+        }
+        for (int aantalX = 1; aantalX < 11 ; aantalX++) {
+            s1 = (" " + aantalX + "*" + tafel + "=" + (aantalX*tafel));
+            repaint();
+        }
+            repaint();
+        }
+}
 
 
 

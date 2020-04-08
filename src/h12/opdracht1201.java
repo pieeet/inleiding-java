@@ -15,7 +15,7 @@ int gemiddelde;
 
         cijfers = new int[10];
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < cijfers.length; i++) {
             cijfers[i] = (int) (Math.random() * 10 + 1);
             System.out.println(cijfers[i] + "-");
         }

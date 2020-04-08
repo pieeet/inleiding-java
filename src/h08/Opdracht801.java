@@ -31,7 +31,6 @@ public class Opdracht801 extends Applet {
     Button knopReset;
     String message;
 
-
     public void init() {
 
         setSize(400,500);

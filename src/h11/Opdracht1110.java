@@ -51,7 +51,7 @@ public class Opdracht1110 extends Applet {
         for (aX = 1; aX < 11; aX++) {
             h += 20;
           //  antwoord = uitkomst1 * aX;
-            g.drawString(""+ tafel + " keer " + aX + " = " + tafel * aX, x ,h);
+            g.drawString(""+ tafel + " x " + aX + " = " + tafel * aX, x ,h);
         }
 
 
